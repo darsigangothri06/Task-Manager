@@ -1,10 +1,14 @@
 import './App.css';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <div className="todo-app">
+        <TodoList />
+      </div>
+      <h1 className='footer'>{'< '}Developed by Gangothri{' />'}</h1>
+    </>
   );
 }
 
